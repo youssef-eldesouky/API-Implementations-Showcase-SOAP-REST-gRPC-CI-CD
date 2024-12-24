@@ -54,6 +54,9 @@ from models import add_task, get_all_tasks
 # Add some tasks
 add_task("Buy groceries")
 add_task("Complete software architecture assignment")
+add_task("Read a book")
+add_task("Go for a walk")
+add_task("Prepare dinner")
 
 # Retrieve and print all tasks
 tasks = get_all_tasks()

@@ -12,9 +12,8 @@ def index():
 
 @app.route('/add', methods=['POST'])
 def add_task_route():
-    # Get the task name from the form
     task_name = request.form['task_name']
-    if task_name:  # Ensure the task name is not empty
+    if task_name.strip():  # Prevent adding empty tasks
         add_task(task_name)
     return redirect(url_for('index'))
 
