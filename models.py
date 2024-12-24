@@ -48,15 +48,3 @@ def delete_task(task_id):
     cursor.execute('DELETE FROM tasks WHERE id = ?', (task_id,))
     conn.commit()
     conn.close()
-
-from models import add_task, get_all_tasks
-
-# Add some tasks
-add_task("Buy groceries")
-add_task("Complete software architecture assignment")
-
-# Retrieve and print all tasks
-tasks = get_all_tasks()
-print("Tasks in the database:")
-for task in tasks:
-    print(task)
