@@ -42,12 +42,12 @@ The solution contains three main projects:
 
 1. Clone the repository
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/youssef-eldesouky/API-Implementations-Showcase-SOAP-REST-gRPC-CI-CD.git
 ```
 
 2. Navigate to the solution directory
 ```bash
-cd [solution-directory]
+cd API-Implementations-Showcase-SOAP-REST-gRPC-CI-CD
 ```
 
 3. Build the solution
