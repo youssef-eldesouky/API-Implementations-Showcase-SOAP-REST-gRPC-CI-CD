@@ -1,0 +1,40 @@
+# .NET build output
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.cache
+*.force
+*.userosscache
+*.sln.docstates
+
+# Dependencies
+packages/
+node_modules/
+
+# Environment files
+appsettings.Development.json
+*.env
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio cache/options
+.vs/
