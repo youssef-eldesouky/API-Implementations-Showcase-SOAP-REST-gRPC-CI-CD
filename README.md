@@ -33,8 +33,8 @@ The solution contains three main projects:
 
 ### Prerequisites
 
-- .NET 6.0 SDK or later
-- Visual Studio 2019/2022 or VS Code
+- .NET 8.0 SDK
+- Visual Studio 2022 or VS Code
 - Docker Desktop
 - Jenkins (for CI/CD)
 
